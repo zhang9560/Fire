@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choose_avatar">
+        <item>拍照</item>
+        <item>从相册选择</item>
+    </string-array>
+
+    <array name="assigned_task_context_menu">
+        <item>删除</item>
+    </array>
+</resources>

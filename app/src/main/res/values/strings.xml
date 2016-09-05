@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">一把火</string>
+    <string name="app_description">坐地铁、看电视、蹲马桶、甚至上班时...都能赚外快，一天赚100元很轻松！注册一把火！</string>
+
+    <string name="title_hall">大厅</string>
+    <string name="title_task">任务</string>
+    <string name="title_message">消息</string>
+    <string name="title_personal_info">我的</string>
+    
+    <string name="current_balance">当前可用余额(人民币)</string>
+    <string name="total_income">累计收益(人民币)</string>
+    <string name="recommendation_income">推荐收益(人民币)</string>
+
+    <string name="login_phone_number">填写手机号码</string>
+    <string name="login_password">填写密码</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="mobile_verify">手机验证</string>
+    <string name="input_phone_number">填写11位手机号码</string>
+    <string name="read_agreement">我已阅读并同意：</string>
+    <string name="app_agreement">《一把火软件许可协议》</string>
+    <string name="user_agreement">一把火软件许可协议</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="sending">正在发送...</string>
+    <string name="input_correct_mobile_number">请输入正确的手机号码</string>
+    <string name="get_verification_code_error">获取验证码失败</string>
+    <string name="input_withdraw_password">填写6位数字支付密码</string>
+    <string name="send_message">发送</string>
+
+    <string name="user_register">用户注册</string>
+    <string name="input_verification_code">填写6位验证码</string>
+    <string name="input_password">填写6-18位密码</string>
+    <string name="input_invite_code">填写8位邀请码(可选)</string>
+    <string name="submit">提交</string>
+    <string name="resend_verification_code">重发验证码</string>
+    <string name="input_correct_verification_code">请输入6位的正确验证码</string>
+    <string name="input_correct_login_password">请输入6~18位的正确密码</string>
+    <string name="input_correct_invite_code">请输入长度8位的正确邀请码，没有可以不填哦~</string>
+    <string name="input_invite_code_tip">输入邀请码有5元现金奖励，你的邀请人还可获得平台永久佣金提成奖励~</string>
+    <string name="have_invite_code">有邀请码</string>
+    <string name="still_register">任性注册</string>
+    <string name="register_user_failed">注册用户失败</string>
+    <string name="sms_receiving_countdown">接收短信大约需要%d秒</string>
+    <string name="congratulations">恭喜你</string>
+    <string name="register_user_success">一把火已注册成功，速速进入大厅开启发家之旅~</string>
+    <string name="login_failed">登录出错，请重新登录</string>
+    <string name="now_login">正在登录...</string>
+    <string name="input_correct_withdraw_password">支付密码必须是6位的数字哦~</string>
+    <string name="default_nick_name">小火苗</string>
+
+    <string name="set_login_password">设置登录密码</string>
+    <string name="set_payment_password">设置支付密码</string>
+    <string name="reset_password_failed">重置密码失败，请确定账号和验证码正确</string>
+    <string name="reset_password_succeed">重置密码成功</string>
+
+    <string name="all">全部</string>
+    <string name="commission">佣金</string>
+    <string name="traffic">流量</string>
+    <string name="others">其他</string>
+    <string name="pull_to_refresh">下拉刷新看看吧~</string>
+    <string name="new_task">新任务</string>
+    <string name="completed_task">已完成</string>
+    <string name="share">分享</string>
+    <string name="binding">绑定</string>
+
+    <string name="pref_title_customer_service">在线客服</string>
+    <string name="pref_title_system_message">系统消息</string>
+    <string name="pref_title_withdraw">现金提现</string>
+    <string name="pref_title_ranking">排行榜</string>
+    <string name="pref_title_invitation">我的邀请</string>
+    <string name="pref_title_user_info">用户信息</string>
+    <string name="pref_title_torch_guide">火把宝典</string>
+    <string name="pref_title_contact_us">联系我们</string>
+    <string name="pref_title_settings">设置</string>
+    <string name="pref_title_about">关于</string>
+    <string name="pref_title_exit">退出</string>
+    <string name="pref_title_tenpay_withdraw">财付通提现</string>
+    <string name="pref_title_withdraw_history">提现记录</string>
+    <string name="pref_title_avatar">头像</string>
+    <string name="pref_title_nick_name">昵称</string>
+    <string name="pref_title_phone_number">手机号</string>
+    <string name="pref_title_invite_code">我的邀请码</string>
+    <string name="pref_title_real_name_auth">实名认证</string>
+    <string name="pref_title_account_safety">账号安全</string>
+    <string name="pref_title_binding">我的淘宝</string>
+    <string name="pref_title_my_tenpay">我的财付通</string>
+    <string name="pref_title_reset_login_password">登录密码</string>
+    <string name="pref_title_reset_withdraw_password">支付密码</string>
+
+    <string name="pref_text_not_auth">
+        <![CDATA[
+        <font color=\'#fe8226\'>!未认证</font>
+        ]]>
+    </string>
+    <string name="pref_text_in_review">
+        <![CDATA[
+        <font color=\'#fe8226\'>!认证中</font>
+        ]]>
+    </string>
+    <string name="pref_text_already_auth">已认证</string>
+    <string name="pref_text_rejected">
+        <![CDATA[
+        <font color=\'#fe8226\'>!被拒绝</font>
+        ]]>
+    </string>
+    <string name="pref_text_change_password">修改密码</string>
+    <string name="pref_text_not_bind">
+        <![CDATA[
+        <font color=\'#fe8226\'>!未绑定</font>
+        ]]>
+    </string>
+    <string name="pref_text_modify">修改</string>
+    <string name="pref_text_not_set">
+        <![CDATA[
+        <font color=\'#fe8226\'>!未设置</font>
+        ]]>
+    </string>
+
+    <string name="very_important">非常重要</string>
+    <string name="binding_information">你以后只能用旺旺 %s 购买并提交任务！</string>
+    <string name="change_binding_account">换个旺旺</string>
+    <string name="confirm_binding">我要绑定</string>
+    <string name="binding_failed_title">呵呵</string>
+    <string name="binding_failed_content">页面可能还没加载完呢，或者你还没登陆旺旺哦~</string>
+    <string name="binding_failed_ok">好吧</string>
+    <string name="binding_immediately">马上绑定</string>
+    <string name="do_real_name_auth">去认证</string>
+    <string name="modify_binding">修改绑定&#xe500;</string>
+    <string name="do_exam">去考试</string>
+    <string name="exam">考试</string>
+    <string name="withdraw_tip">最多可提现%.1f元人民币</string>
+    <string name="withdraw_edit_hint">请输入提现金额(元)</string>
+    <string name="not_enough_points">不好意思，你可提取的余额不足</string>
+    <string name="input_wrong_points">输入金额错误</string>
+    <string name="input_withdraw_password_title">请输入支付密码</string>
+    <string name="withdraw_password_dialog_message">%.1f元</string>
+
+    <string name="confirm_to_exit">确定退出登录？</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="no_connection">似乎已断开与互联网的连接</string>
+    
+    <string name="get_right_now">马上抢</string>
+    <string name="task_refund_speed">返款速度 暂无评分</string>
+    <string name="task_refund_speed_with_stars">&#xe505;&#xe505;&#xe505;&#xe505;&#xe505;</string>
+    <string name="task_refund_speed_with_hours">%d小时</string>
+    <string name="task_left_num">任务数: %d单</string>
+    <string name="task_price">付¥%.1f</string>
+    <string name="task_expire_date">
+        <![CDATA[
+        <font color=\'#2196f3\'>&#xe305;</font> %s
+        ]]>
+    </string>
+    <string name="task_price_icon">&#xe508; ¥</string>
+    <string name="yuan">&#xe200;</string>
+    <string name="load_more">加载更多...</string>
+
+    <string name="tenpay_tip">用于本人提现和商家返款，请确保信息正确</string>
+    <string name="tenpay_name">姓名：</string>
+    <string name="tenpay_name_hint">财付通姓名</string>
+    <string name="tenpay_account">账号：</string>
+    <string name="tenpay_account_hint">财付通账号</string>
+    <string name="tenpay">财付通</string>
+    <string name="set_withdraw_password_tip">还没有设置支付密码，是否设置？</string>
+    <string name="withdraw_success">提现成功</string>
+
+    <string name="copy_right">© ShangHai LingHui Co., Ltd. All rights reserved.</string>
+
+    <string name="real_name_auth_tip1">上传身份证材料证明身份</string>
+    <string name="real_name_auth_tip2">
+        <![CDATA[
+        实名认证后将点亮 <font color=\'#fe8226\'>V</font> 图标， 获得更优质的任务推送
+        ]]>
+    </string>
+    <string name="real_name_auth_tip3">实名认证审核中....</string>
+    <string name="real_name_auth_tip4">你已通过实名身份认证....</string>
+    <string name="real_name_auth_input_id_card">输入身份证号</string>
+    <string name="getting_real_name_auth_info">正在获取实名认证信息...</string>
+    <string name="real_name_auth_uploading">正在上传照片，请稍后...</string>
+    <string name="real_name_auth_upload_failed">有照片上传失败，请重新提交！</string>
+
+    <string name="bind_tenpay_tip">财付通用于本人提现和商家返款，请务必确保姓名和账号正确!</string>
+    <string name="wrong">错了</string>
+    <string name="bind_successfully">绑定成功</string>
+
+    <string name="assigned_task_status_assigned">已认领</string>
+    <string name="assigned_task_status_doing">进行中</string>
+    <string name="assigned_task_status_submitted">已提交</string>
+    <string name="assigned_task_status_confirmed">待确认</string>
+    <string name="assigned_task_status_completed">已完成</string>
+    <string name="assigned_task_status_cancelled">已取消</string>
+
+    <string name="assign_task_success">抢任务成功了</string>
+    <string name="task_detail_info">详情</string>
+    <string name="delete">删除</string>
+    <string name="complaint">投诉</string>
+    <string name="deletion_tip">删除任务会减少当天能接的任务数！总这样会被商家投诉，严重者永久封号！</string>
+    <string name="regretted">我后悔了</string>
+    <string name="still_delete">任性删除</string>
+    <string name="stop_playing">别闹</string>
+
+    <string name="fetching_task_detail_info">正在获取任务详情...</string>
+    <string name="seller_has_offered_margin">商家已交保证金</string>
+    <string name="task_price_format_string" formatted="false">
+        <![CDATA[
+        购买<font color=\'#2196f3\'>%d</font>件，付款<font color=\'#2196f3\'>¥%.1f</font>
+        ]]>
+    </string>
+    <string name="task_price_format_string_2" formatted="false">
+        <![CDATA[
+        共<font color=\'#2196f3\'>%d</font>件，付款<font color=\'#2196f3\'>¥%.1f</font>
+        ]]>
+    </string>
+    <string name="start_task">开始任务</string>
+    <string name="view_task">查看任务</string>
+    <string name="commit_task">提交任务</string>
+    <string name="task_completed">任务完成</string>
+    <string name="task_requirements">任务要求</string>
+    <string name="wait_for_refund">等待返款</string>
+    <string name="confirm_the_money">确认收款</string>
+    <string name="task_cancelled">任务取消</string>
+    <string name="task_requirements_tip">请严格按照以上要求做任务，否则可能影响佣金返款！</string>
+    <string name="view_course">查看教程&#xe500;</string>
+    <string name="task_course">任务教程</string>
+    <string name="task_info">任务信息</string>
+    <string name="task_id">任务ID:%s</string>
+    <string name="task_type_prefix">类型:%s</string>
+    <string name="task_organ_name">商家:%s</string>
+    <string name="task_third_party_name">买家:%s</string>
+    <string name="task_attention">注意事项</string>
+    <string name="task_attention_content">1.与商家旺旺聊天时不要提及一把火、试客、返款等信息.\n2.禁止使用信用卡、淘金币、优惠券、红包、天猫积分等.\n3.禁止通过淘宝客、返利网、一淘等返利链接下单购买产品.\n4.正常购买商家产品，收到快递后进入我的淘宝页面确认收货.\n5.收到快递后第一时间淘宝确认，并给与商家5星好评支持.\n6.请严格遵守平台规则，否则会被平台处罚，情节严重者永久封号.</string>
+    <string name="commit_task_tip">1.流量任务不需要购买产品.\n2.提交平台后会反现到一把火账户余额.</string>
+    <string name="taobao_account_not_match">当前登录的旺旺与绑定的旺旺账号不匹配，请更换旺旺！</string>
+    <string name="not_all_tags_have_finished">你需要完成以下要求才能提交任务：\n\n%s</string>
+    <string name="commit_failed">提交失败</string>
+    <string name="commit_success">提交任务成功</string>
+    <string name="not_found_order">你可能还没在淘宝购买该产品，或订单处于退款等异常状态，如确定已购买请正常提交!</string>
+    <string name="heihei">嘿嘿</string>
+    <string name="still_submit">任性提交</string>
+
+    <string name="task_type_taobao_commission">淘宝佣金</string>
+    <string name="task_type_tianmao_commission">天猫佣金</string>
+    <string name="task_type_taobao_traffic">淘宝流量</string>
+    <string name="task_type_tianmao_traffic">淘宝流量</string>
+    <string name="task_type_unknown">未知类型</string>
+
+    <string name="countdown_prefix_order">下单：%s</string>
+    <string name="countdown_prefix_refund">商家返款：%s</string>
+    <string name="countdown_prefix_confirm">买家收款: %s</string>
+    <string name="countdown_expired">已过期</string>
+    <string name="countdown_output_format" formatted="false">%02d:%02d:%02d</string>
+
+    <string name="found_new_version_title">发现新版本</string>
+    <string name="found_new_version_message">是否下载并安装新版本？</string>
+    <string name="preparing_new_version">正在准备下载新版本...</string>
+    <string name="downloading_new_version">正在下载新版本 : %d%%</string>
+    <string name="download_completed">下载完成，点击安装</string>
+    <string name="download_failed">下载失败</string>
+
+    <string name="share_to">分享至</string>
+    <string name="share_to_wechat_friends">微信好友</string>
+    <string name="share_to_wechat_moments">微信朋友圈</string>
+</resources>

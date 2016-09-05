@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_key_tenpay_withdraw"
+        android:title="@string/pref_title_tenpay_withdraw"
+        android:icon="@drawable/ic_pref_tenpay"
+        android:widgetLayout="@layout/pref_nav_next" />
+    <Preference
+        android:key="pref_key_withdraw_history"
+        android:title="@string/pref_title_withdraw_history"
+        android:icon="@drawable/ic_pref_history"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.WithdrawHistoryFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+</PreferenceScreen>

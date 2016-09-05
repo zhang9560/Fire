@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_key_about"
+        android:title="@string/pref_title_about"
+        android:icon="@drawable/ic_pref_about"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.AboutFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+    <Preference
+        android:key="pref_key_exit"
+        android:title="@string/pref_title_exit"
+        android:icon="@drawable/ic_pref_exit">
+    </Preference>
+</PreferenceScreen>

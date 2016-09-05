@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_key_customer_service"
+        android:icon="@drawable/ic_customer_service"
+        android:title="@string/pref_title_customer_service">
+        <intent
+            android:targetClass="com.linghui.fire.message.CustomerServiceActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+    <Preference
+        android:key="pref_key_system_message"
+        android:icon="@drawable/ic_system_message"
+        android:title="@string/pref_title_system_message">
+    </Preference>
+</PreferenceScreen>

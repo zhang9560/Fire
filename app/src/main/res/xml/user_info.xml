@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_avatar"
+        android:title="@string/pref_title_avatar"
+        android:widgetLayout="@layout/pref_nav_next" />
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_nick_name"
+        android:title="@string/pref_title_nick_name"
+        android:widgetLayout="@layout/pref_nav_next" />
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_username"
+        android:title="@string/pref_title_phone_number"
+        android:widgetLayout="@layout/pref_nav_next"
+        android:selectable="false" />
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_invite_code"
+        android:title="@string/pref_title_invite_code"
+        android:widgetLayout="@layout/pref_nav_next"
+        android:selectable="false" />
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_real_name_auth"
+        android:title="@string/pref_title_real_name_auth"
+        android:widgetLayout="@layout/pref_nav_next">
+    </com.linghui.fire.widget.CustomPreference>
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_binding"
+        android:title="@string/pref_title_binding"
+        android:widgetLayout="@layout/pref_nav_next" />
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_tenpay"
+        android:title="@string/pref_title_my_tenpay"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.TenpayFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </com.linghui.fire.widget.CustomPreference>
+    <com.linghui.fire.widget.CustomPreference
+        android:key="pref_key_account_safety"
+        android:title="@string/pref_title_account_safety"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.AccountSafetyFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </com.linghui.fire.widget.CustomPreference>
+</PreferenceScreen>

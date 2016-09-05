@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@color/tab_bar_background_color">
+        <com.linghui.fire.widget.IconFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:text="&#xe204;" />
+        <TextView
+            android:id="@+id/real_name_auth_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:text="@string/real_name_auth_tip1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:id="@+id/real_name_auth_tip" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/white"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <EditText
+                    android:id="@+id/id_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/edit_text_size"
+                    android:hint="@string/real_name_auth_input_id_card" />
+            </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:background="@android:color/white"
+            android:gravity="center_horizontal">
+            <FrameLayout
+                android:layout_width="130dp"
+                android:layout_height="190dp"
+                android:layout_marginRight="40dp">
+                <FrameLayout
+                    android:layout_width="@dimen/real_name_auth_photo_width"
+                    android:layout_height="@dimen/real_name_auth_photo_height"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/real_name_auth_picture_select_background">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+                        <com.linghui.fire.widget.IconFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="30sp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="&#xe503;" />
+                        <TextView
+                            android:id="@+id/title_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/picture_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        fresco:actualImageScaleType="fitXY" />
+                </FrameLayout>
+                <ImageView
+                    android:id="@+id/delete_btn_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_btn_delete" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="130dp"
+                android:layout_height="190dp">
+                <FrameLayout
+                    android:layout_width="@dimen/real_name_auth_photo_width"
+                    android:layout_height="@dimen/real_name_auth_photo_height"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/real_name_auth_picture_select_background">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+                        <com.linghui.fire.widget.IconFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="30sp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="&#xe503;" />
+                        <TextView
+                            android:id="@+id/title_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/picture_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        fresco:actualImageScaleType="fitXY" />
+                </FrameLayout>
+                <ImageView
+                    android:id="@+id/delete_btn_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_btn_delete" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@android:color/white"
+            android:gravity="center_horizontal">
+            <FrameLayout
+                android:layout_width="130dp"
+                android:layout_height="190dp"
+                android:layout_marginRight="40dp">
+                <FrameLayout
+                    android:layout_width="@dimen/real_name_auth_photo_width"
+                    android:layout_height="@dimen/real_name_auth_photo_height"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/real_name_auth_picture_select_background">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+                        <com.linghui.fire.widget.IconFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="30sp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="&#xe503;" />
+                        <TextView
+                            android:id="@+id/title_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/picture_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        fresco:actualImageScaleType="fitXY" />
+                </FrameLayout>
+                <ImageView
+                    android:id="@+id/delete_btn_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_btn_delete" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="130dp"
+                android:layout_height="190dp">
+                <FrameLayout
+                    android:layout_width="@dimen/real_name_auth_photo_width"
+                    android:layout_height="@dimen/real_name_auth_photo_height"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/real_name_auth_picture_select_background">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+                        <com.linghui.fire.widget.IconFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="30sp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="&#xe503;" />
+                        <TextView
+                            android:id="@+id/title_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/picture_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        fresco:actualImageScaleType="fitXY" />
+                </FrameLayout>
+                <ImageView
+                    android:id="@+id/delete_btn_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_btn_delete" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

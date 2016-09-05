@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.linghui.fire"
+    android:versionCode="4"
+    android:versionName="1.0.3">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
+
+    <application
+        android:name=".AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".SplashActivity" android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".login.LoginActivity" android:screenOrientation="portrait" android:label="@string/login" />
+        <activity android:name=".login.MobileVerifyActivity" android:screenOrientation="portrait" android:label="@string/mobile_verify" />
+        <activity android:name=".login.RegisterActivity" android:screenOrientation="portrait" android:label="@string/user_register" />
+        <activity android:name=".login.ResetPasswordActivity" android:screenOrientation="portrait" />
+        <activity android:name=".message.CustomerServiceActivity" android:screenOrientation="portrait" android:label="@string/pref_title_customer_service" />
+        <activity android:name=".settings.GeneralActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".settings.ImageViewerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".task.TaskDetailInfoActivity" android:screenOrientation="portrait" android:label="@string/task_detail_info" />
+        <activity android:name=".task.TaskViewerActivity" android:screenOrientation="portrait" />
+        <activity android:name=".task.CourseViewActivity" android:screenOrientation="portrait" android:label="@string/task_course" />
+        <activity android:name=".update.UpdateActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent" />
+
+        <service android:name=".session.SessionService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <service android:name=".update.UpdateService" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>

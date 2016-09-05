@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navigation_item_hall"
+            android:checked="true"
+            android:icon="@drawable/ic_hall"
+            android:title="@string/title_hall" />
+        <item android:id="@+id/navigation_item_task"
+            android:icon="@drawable/ic_task"
+            android:title="@string/title_task" />
+        <item android:id="@+id/navigation_item_message"
+            android:icon="@drawable/ic_message"
+            android:title="@string/title_message" />
+        <item android:id="@+id/navigation_item_personal_info"
+            android:icon="@drawable/ic_personal_info"
+            android:title="@string/title_personal_info" />
+    </group>
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/pref_title_withdraw"
+        android:icon="@drawable/ic_pref_withdraw"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.WithdrawFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+
+    <Preference
+        android:title="@string/pref_title_ranking"
+        android:icon="@drawable/ic_pref_ranking"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.RankingFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+
+    <Preference
+        android:title="@string/pref_title_invitation"
+        android:icon="@drawable/ic_pref_invitation"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.InvitationFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+
+    <Preference
+        android:title="@string/pref_title_user_info"
+        android:icon="@drawable/ic_pref_user"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.UserInfoFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+
+    <Preference
+        android:title="@string/pref_title_torch_guide"
+        android:icon="@drawable/ic_pref_guide"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.GuideFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+
+    <Preference
+        android:title="@string/pref_title_contact_us"
+        android:icon="@drawable/ic_pref_contact_us"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:targetClass="com.linghui.fire.message.CustomerServiceActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+
+    <Preference
+        android:title="@string/pref_title_settings"
+        android:icon="@drawable/ic_pref_settings"
+        android:widgetLayout="@layout/pref_nav_next">
+        <intent
+            android:action="com.linghui.fire.settings.SettingsFragment"
+            android:targetClass="com.linghui.fire.settings.GeneralActivity"
+            android:targetPackage="com.linghui.fire" />
+    </Preference>
+
+</PreferenceScreen>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+        <ImageView
+            android:id="@+id/task_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/task_icon"
+            android:layout_toLeftOf="@+id/task_assignment_btn">
+            <TextView
+                android:id="@+id/task_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@android:color/black"
+                android:text="哈哈哈哈哈"
+                android:textSize="@dimen/task_item_description_text_size" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical">
+                <com.linghui.fire.widget.IconFontTextView
+                    android:id="@+id/task_refund_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:textColor="@color/tab_item_text_color"
+                    android:textSize="@dimen/task_item_refund_speed_text_size"
+                    android:text="@string/task_refund_speed" />
+                <TextView
+                    android:id="@+id/task_refund_speed_hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@color/tab_item_text_color"
+                    android:textSize="@dimen/task_item_refund_speed_text_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.linghui.fire.widget.IconFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_gravity="bottom"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp"
+                    android:text="@string/task_price_icon"/>
+                <TextView
+                    android:id="@+id/task_actual_offer_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/task_item_actual_offer_price_text_size" />
+                <TextView
+                    android:id="@+id/task_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/task_item_refund_speed_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/task_assignment_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/task_item_btn_background"
+            android:textSize="11sp"
+            android:textColor="@color/task_item_btn_text_color"
+            android:text="@string/get_right_now"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/task_left_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/task_item_refund_speed_text_size"
+            android:textColor="@color/tab_item_text_color" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/colorDivider" />
+</LinearLayout>
